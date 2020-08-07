@@ -1,4 +1,4 @@
-#                                  News Article
+#News Article
 
 
 # Overview
