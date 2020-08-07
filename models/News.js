@@ -4,7 +4,7 @@
   var NewsSchema = new Schema({
     title:  String, required: true, // String is shorthand for {type: String}
     link: String, required: true,
-    comments: [{ Schema.Types.ObjectId, ref: "Comment" }],
+    comment: [ Schema.Types.ObjectId, {ref: "Comment"}],
     
   });
 var News = mongoose.model("News", NewsSchema);
