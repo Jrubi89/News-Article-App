@@ -1,10 +1,15 @@
- var mongoose = require('mongoose');
-  var Schema = mongoose.Schema;
+var mongoose = require("mongoose");
 
-  var CommentSchema = new Schema({
-    name:  String, // String is shorthand for {type: String}
-    body: String, required: true,    
-  });
+var Schema = mongoose.Schema;
+
+var CommentSchema = new Schema({
+  name: {
+    type: String
+  },
+  body: {
+    type: String,
+    required: true
+  }
+});
 var Comment = mongoose.model("Comment", CommentSchema);
-module.exports = Commnet;
-  
+module.exports = Comment;

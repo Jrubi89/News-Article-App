@@ -19,11 +19,14 @@
   "homepage": "https://github.com/Jrubi89/News-Article-App#readme",
   "dependencies": {
     "axios": "^0.19.2",
-    "body-parse": "^0.1.0",
-    "cheerio": "^1.0.0-rc.3",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.1.0",
-    "materialize-css": "^1.0.0-rc.2",
-    "mongoose": "^5.9.27"
-  }
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mongoose": "^5.4.19",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0",
+    "update": "^0.7.4"
+  },
+  "devDependencies": {}
 }
