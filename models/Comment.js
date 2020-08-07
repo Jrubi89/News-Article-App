@@ -6,5 +6,5 @@
     body: String, required: true,    
   });
 var Comment = mongoose.model("Comment", CommentSchema);
-module.exports = Commnets;
+module.exports = Commnet;
   
